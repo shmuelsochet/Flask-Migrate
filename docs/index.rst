@@ -110,7 +110,7 @@ Multiple configuration callbacks can be defined simply by decorating multiple fu
 Multiple Database Support
 -------------------------
 
-Flask-Migrate can integrate with the  `binds <https://pythonhosted.org/Flask-SQLAlchemy/binds.html>`_ feature of Flask-SQLAlchemy, making it possible to track migrations to multiple databases associated with an application.
+Flask-Migrate can integrate with the  `binds <http://flask-sqlalchemy.pocoo.org/2.3/binds/>`_ feature of Flask-SQLAlchemy, making it possible to track migrations to multiple databases associated with an application.
 
 To create a multiple database migration repository, add the ``--multidb`` argument to the ``init`` command::
 
